@@ -4,24 +4,32 @@
     <meta charset="utf-8">
     <title>九宫格制作</title>
     <style media="screen">
-
-      .wrap{padding:0;margin:0;width:330px;margin:50px auto;}
+      div,li{padding:0;margin:0;}
+      .Box{margin:50px auto;width:330px;min-width:266px;}
+      .wrap{display:flex;}
       li{list-style:none;width:100px;height:100px;background:yellow;float:left;margin-right:10px;
-        margin-bottom:10px;border-radius:10px;}
+        margin-bottom:10px;border-radius:10px;justify-content:center;align-items:center;}
 
     </style>
   </head>
   <body>
-    <div class="wrap">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+    <div class="Box">
+      <div class="wrap">
+        <li></li>
+        <li></li>
+        <li></li>
+      </div>
+      <div class="wrap">
+        <li></li>
+        <li></li>
+        <li></li>
+      </div>
+      <div class="wrap">
+        <li></li>
+        <li></li>
+        <li></li>
+      </div>
     </div>
+
   </body>
 </html>
